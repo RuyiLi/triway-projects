@@ -37,9 +37,9 @@ function checkStatus (finished = false) {
     }
 
     if (finished) {
-        if (21 - p === 21 - c) {
+        if (p === c) {
             return 'Tie';
-        } else if (21 - p > 21 - c) {
+        } else if (p < c) {
             return 'Computer wins';
         } else {
             return 'Player wins';

@@ -12,6 +12,7 @@ function init () {
 
     hitBtn.addEventListener('click', hit);
     foldBtn.addEventListener('click', fold);
+    $('button#restart').addEventListener('click', () => location.reload());
 }
 
 function showCards () {
@@ -19,3 +20,4 @@ function showCards () {
     playerHand.innerText = player.join(' ');
     computerHand.innerText = computer.join(' ');
 }
+
