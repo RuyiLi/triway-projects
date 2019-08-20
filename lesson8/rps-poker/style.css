@@ -1,0 +1,74 @@
+* {
+    font-family: 'Apercu';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #181818;
+}
+
+div#board {
+    width: 640px;
+    height: 480px;
+    border: 1px solid #ededed;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+div#computerHand {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #ededed;
+}
+
+div#playerHand {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    border-top: 1px solid #ededed;
+}
+
+a#result {
+    color: #ededed;
+    font-size: 2rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    font-size: 1.3rem;
+    cursor: pointer;
+    width: 15%;
+    display: inline-block;
+    border: none;
+    outline: none;
+    height: 90px;
+    margin-top: 5px;
+    text-transform: capitalize;
+    transition: .2s;
+}
+
+button.activeComputer {
+    transform: scale(1.02);
+    color: #ededed;
+    background-color: #7e0000;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+button.activePlayer {
+    transform: scale(1.02);
+    color: #ededed;
+    background-color: #0a7e00;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+}

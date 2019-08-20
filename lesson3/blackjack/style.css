@@ -1,0 +1,39 @@
+* {
+    background: #181818;
+    font-family: 'BigNoodleTitling', sans-serif;
+    color: #ededed;
+    text-align: center;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+div {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 3rem;
+}
+
+button {
+    padding: 1rem 2rem;
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #ededed;
+    margin: auto;
+}
+
+button:hover {
+    background: #ededed;
+    color: #181818;
+}
+
+h1 {
+    color: #c0ff33;
+}
+
+p {
+    color: #c0ffee;
+}

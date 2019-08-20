@@ -1,0 +1,73 @@
+* {
+    font-family: 'Apercu';
+}
+
+body { 
+    background: #ededed;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+    height: 100%;
+    text-align: center;
+}
+
+div#cookieContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    border-right: 3px solid #181818;
+}
+
+div#shop {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+}
+
+button#cookie {
+    width: 300px;
+    height: 300px;
+    background: url('http://pngimg.com/uploads/cookie/cookie_PNG13680.png') transparent;
+    background-size: cover;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+button#cookie:hover {
+    transform: scale(0.95);
+}
+
+h1#numCookies {
+    width: 100%;
+    margin: 2rem 0;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 2.7rem;
+    background: #18181863;
+}
+
+button.shopItem {
+    width: 90%;
+    display: block;
+    padding: 0.5rem 0.8rem;
+    font-size: 1.8rem;
+    outline: none;
+    background: #ededed;
+    color: #181818;
+    cursor: pointer;
+    border: 3px groove #181818;
+    margin: auto;
+    margin-top: 0.6rem;
+}
+
+button.shopItem:hover {
+    color: #ededed;
+    background: #181818;
+}

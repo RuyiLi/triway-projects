@@ -1,0 +1,15 @@
+button#cookie {
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    background-image: url('http://pngimg.com/uploads/cookie/cookie_PNG13680.png');
+    background-size: cover;
+    width: 160px;
+    height: 160px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+button#cookie:hover {
+    transform: scale(0.95);
+}

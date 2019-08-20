@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+
+.transition-page {
+    transition: 0.1s ease;
+    transform: rotateY(0);
+}
+
+html.is-animating .transition-page {
+    transform: rotateY(180deg);
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<style>
+    img {
+        opacity: 0;
+        max-height: 500px;
+        position: fixed;
+        top: 50px;
+        left: 50px;
+        transition: .3s ease;
+    }
+
+    img.active {
+        opacity: 1;
+    }
+</style>
+
+<script type="text/javascript" src="index.js"></script>
+
+<button id="catBtn"> Cat </button>
+<button id="dogBtn"> Dog </button>
+
+<img id="catImg" src="https://purr.objects-us-east-1.dream.io/i/vJtAi.jpg">
+<img id="dogImg" src="https://random.dog/42980553-2f4f-4829-86a0-1c9ba7b7300c.jpg">

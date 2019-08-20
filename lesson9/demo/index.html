@@ -1,0 +1,49 @@
+<script type="text/javascript" src="index.js"></script>
+<style>
+    body {
+        background: #c0ff33;
+    }
+
+    div,
+    canvas {
+        display: inline-block;
+    }
+
+    div {
+        width: 300px;
+        vertical-align: top;
+        text-align: center;
+        padding: 0.5rem 2rem;
+    }
+
+    button {
+        font-family: 'Fira Code';
+        vertical-align: top;
+        padding: 0.5rem 0.8rem;
+        outline: none;
+        border: 2px solid #181818;
+        background: transparent;
+        cursor: pointer;
+        transition: .2s;
+        margin: 0.4rem 0;
+    }
+
+    button:hover {
+        background: #181818;
+        color: #ededed;
+    }
+</style>
+
+<canvas></canvas>
+<div>
+    <button> Draw a 100px by 100px black square at 0, 0 </button>
+    <button> Change fill color to white </button>
+    <button> Draw a 100px by 100px white square at 100, 0 </button>
+    <button> Clear the canvas </button>
+    <button> Set font to 40px Monospace </button>
+    <button> Write "Hello, World!" at 0, 0 </button>
+    <button> Write "Hello, World!" at 0, 40 </button>
+    <button> Measure the dimensions of "Hello, World!" </button>
+    <button> Write "Hello" at the center </button>
+    <button> Draw a cat at 0, 0 </button>
+</div>

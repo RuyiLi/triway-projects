@@ -1,0 +1,59 @@
+* {
+    font-family: 'Apercu';
+}
+
+body {
+    background-color: #181818;
+    text-align: center;
+    color: #ededed;
+}
+
+div#controls {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p#now-playing {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+button {
+    padding: 0.5rem 0.8rem;
+    font-size: 1.8rem;
+    outline: none;
+    background: #181818;
+    color: #ededed;
+    cursor: pointer;
+    border: 2px solid #ededed;
+    margin-top: 0.3rem;
+}
+
+button + button {
+    margin-left: 1.5rem;
+}
+
+button:hover {
+    background: #ededed;
+    color: #181818;
+}
+
+progress[value] {
+    display: block;
+    width: 100%;
+    margin: 1.5rem 0;
+
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: #555555;
+    border-radius: 10rem;
+}
+progress[value]::-webkit-progress-value {
+    background-color: #ededed;
+    border-radius: 10rem;
+}

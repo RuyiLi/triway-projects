@@ -1,0 +1,55 @@
+* {
+    font-family: 'Major Mono Display', 'Courier New', monospace;
+}
+
+body {
+    padding: 2rem;
+    background-color: #181818;
+    color: #ededed;
+    text-align: center;
+}
+
+input {
+    font-family: 'Axiforma', 'Darker Grotesque', sans-serif;
+    width: 90%;
+    height: 5rem;
+    font-size: 5rem;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #ededed;
+    border-bottom: 2px solid white;
+}
+
+p {
+    letter-spacing: 0.5rem;
+    font-size: 3rem;
+}
+
+p#word {
+    padding: 10px;
+    border: 2px groove #ededed;
+    border-top: none;
+}
+
+p#lives {
+    font-size: 2rem;
+    position: fixed;
+    height: 2.2rem;
+    top: 0;
+    right: 0;
+    background: #00b427;
+}
+
+button {
+    font-size: 2rem;
+    position: fixed;
+    top: 4.2rem;
+    right: 0;
+    height: 2.2rem;
+    color: #ededed;
+    background: #008dc5;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}

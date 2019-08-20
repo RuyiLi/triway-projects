@@ -1,0 +1,10 @@
+.transition-page {
+    opacity: 1;
+    transform: rotateZ(0deg);
+    transition: .4s ease;
+}
+
+html.is-animating .transition-page {
+    opacity: 0;
+    transform: rotateZ(180deg);
+}

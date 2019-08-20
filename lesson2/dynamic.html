@@ -1,0 +1,27 @@
+<style>
+    * {
+        font-size: 2rem;
+        font-family: 'Comic Sans MS', sans-serif;
+    }
+</style>
+
+<button> Click me! </button>
+<button id="clear"> Clear </button>
+<input type="text" name="input" placeholder="Write something here..." />
+
+<script>
+    const input = document.getElementsByName('input')[ 0 ];
+
+
+    document.querySelector('button').addEventListener('click', function (e) {
+        alert('Clicked');
+    });
+
+    document.querySelector('#clear').addEventListener('click', function (e) {
+        document.querySelector('input').value = '';
+    });
+
+    document.querySelector('input').addEventListener('input', function ({ data }) {
+        alert(`You pressed ${ data }`);
+    });
+</script>

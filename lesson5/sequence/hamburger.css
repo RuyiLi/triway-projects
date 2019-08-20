@@ -1,0 +1,41 @@
+* {
+    font-family: sans-serif;
+}
+
+div.hamburgerContent {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    background-color: #1818188a;
+    text-align: center;
+    transition: .5s ease;
+    opacity: 0;
+    top: -100%;
+    transform: rotateZ(0);
+}
+
+div.active {
+    opacity: 1;
+    top: 0;
+    transform: rotateZ(360deg);
+    background: red;
+}
+
+button.hamburgerButton {
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 2rem;
+}
+
+ul.hamburgerList li {
+    list-style: none;
+}
+
+ul.hamburgerList li a {
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+}
+
